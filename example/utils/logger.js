@@ -7,7 +7,7 @@ if(process.env.NODE_ENV === "localhost"){
 }else if(process.env.NODE_ENV === "test"){
     filename = path.join(__dirname, "..", "/log-test/example.log");
 }else{
-    filename = "/var/log/example/example.log";
+    filename = "./log/example.log";
 }
 var logger = new winston.Logger({
     transports: [

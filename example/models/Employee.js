@@ -10,7 +10,7 @@ var EmployeeSchema = new mongoose.Schema({
     employeeId: {type: String},
 });
 
-var diffHistory = require("mongoose-diff-history/diffHistory").plugin;
+var diffHistory = require("mongoose-diff-tracking/diffHistory").plugin;
 EmployeeSchema.plugin(diffHistory);
 
 var Employee = mongoose.model("Employee", EmployeeSchema);

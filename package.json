@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-diff-history",
+  "name": "mongoose-diff-tracking",
   "version": "1.6.1",
   "description": "Manage Mongo Collection diff History and versions",
   "main": "diffHistoryModel.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mimani/mongoose-diff-history"
+    "url": "https://github.com/aigoteamvn/mongoose-diff-history"
   },
   "dependencies": {
     "deep-empty-object": "^1.0.5",
@@ -29,16 +29,8 @@
   },
   "contributors": [
     {
-      "name": "Saurabh Mimani",
-      "email": "mimani.saurabh@gmail.com"
-    },
-    {
-      "name": "Amith Prasad",
-      "email": "send2amith@gmail.com"
-    },
-    {
-      "name": "Zachary Rollyson",
-      "email": "me@zjr.io"
+      "name": "aigoteamvn",
+      "email": "aigoteamvn@gmail.com"
     }
   ],
   "engines": {
@@ -53,7 +45,7 @@
     "versioning"
   ],
   "bugs": {
-    "url": "https://github.com/mimani/mongoose-diff-history/issues"
+    "url": "https://github.com/mimani/mongoose-diff-tracking/issues"
   },
   "license": "GPL-2.0"
 }

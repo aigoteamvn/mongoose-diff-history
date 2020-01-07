@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 var Logger = require("../utils/logger.js");
 var Employee = require("../models/Employee.js");
-var diffHistory = require("mongoose-diff-history/diffHistory");
+var diffHistory = require("mongoose-diff-tracking/diffHistory");
 
 /* GET /employees/1234 */
 router.get("/:employeeId", function (req, res, next) {
